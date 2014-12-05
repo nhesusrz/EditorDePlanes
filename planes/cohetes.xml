@@ -1,0 +1,538 @@
+<editorDePlanes.Plan>
+  <niveles>
+    <vector>
+      <editorDePlanes.Accion>
+        <nombre>Accion 2</nombre>
+        <nivel>0</nivel>
+        <pre__condiciones>
+          <editorDePlanes.PredicadoCompuesto>
+            <nombre>AT</nombre>
+            <predicados>
+              <editorDePlanes.Variable>
+                <nombre>a</nombre>
+                <valor></valor>
+              </editorDePlanes.Variable>
+              <editorDePlanes.Variable>
+                <nombre>c1</nombre>
+                <valor></valor>
+              </editorDePlanes.Variable>
+            </predicados>
+          </editorDePlanes.PredicadoCompuesto>
+          <editorDePlanes.PredicadoCompuesto>
+            <nombre>AT</nombre>
+            <predicados>
+              <editorDePlanes.Variable>
+                <nombre>a</nombre>
+                <valor></valor>
+              </editorDePlanes.Variable>
+              <editorDePlanes.Variable>
+                <nombre>r1</nombre>
+                <valor></valor>
+              </editorDePlanes.Variable>
+            </predicados>
+          </editorDePlanes.PredicadoCompuesto>
+        </pre__condiciones>
+        <post__condiciones>
+          <editorDePlanes.Not>
+            <nombre>NOT</nombre>
+            <predicado class="editorDePlanes.PredicadoCompuesto">
+              <nombre>AT</nombre>
+              <predicados>
+                <editorDePlanes.Variable>
+                  <nombre>a</nombre>
+                  <valor></valor>
+                </editorDePlanes.Variable>
+                <editorDePlanes.Variable>
+                  <nombre>c1</nombre>
+                  <valor></valor>
+                </editorDePlanes.Variable>
+              </predicados>
+            </predicado>
+          </editorDePlanes.Not>
+          <editorDePlanes.PredicadoCompuesto>
+            <nombre>IN</nombre>
+            <predicados>
+              <editorDePlanes.Variable>
+                <nombre>r1</nombre>
+                <valor></valor>
+              </editorDePlanes.Variable>
+              <editorDePlanes.Variable>
+                <nombre>c1</nombre>
+                <valor></valor>
+              </editorDePlanes.Variable>
+            </predicados>
+          </editorDePlanes.PredicadoCompuesto>
+        </post__condiciones>
+        <links__destino>
+          <editorDePlanes.Link>
+            <accionor>
+              <nombre>Accion 0</nombre>
+              <nivel>-1</nivel>
+              <pre__condiciones/>
+              <post__condiciones>
+                <editorDePlanes.PredicadoCompuesto>
+                  <nombre>AT</nombre>
+                  <predicados>
+                    <editorDePlanes.Variable>
+                      <nombre>a</nombre>
+                      <valor></valor>
+                    </editorDePlanes.Variable>
+                    <editorDePlanes.Variable>
+                      <nombre>r2</nombre>
+                      <valor></valor>
+                    </editorDePlanes.Variable>
+                  </predicados>
+                </editorDePlanes.PredicadoCompuesto>
+                <editorDePlanes.PredicadoCompuesto>
+                  <nombre>AT</nombre>
+                  <predicados>
+                    <editorDePlanes.Variable>
+                      <nombre>a</nombre>
+                      <valor></valor>
+                    </editorDePlanes.Variable>
+                    <editorDePlanes.Variable>
+                      <nombre>c1</nombre>
+                      <valor></valor>
+                    </editorDePlanes.Variable>
+                  </predicados>
+                </editorDePlanes.PredicadoCompuesto>
+                <editorDePlanes.PredicadoCompuesto>
+                  <nombre>AT</nombre>
+                  <predicados>
+                    <editorDePlanes.Variable>
+                      <nombre>a</nombre>
+                      <valor></valor>
+                    </editorDePlanes.Variable>
+                    <editorDePlanes.Variable>
+                      <nombre>r1</nombre>
+                      <valor></valor>
+                    </editorDePlanes.Variable>
+                  </predicados>
+                </editorDePlanes.PredicadoCompuesto>
+                <editorDePlanes.Variable>
+                  <nombre>HASFUEL</nombre>
+                  <valor>r1</valor>
+                </editorDePlanes.Variable>
+                <editorDePlanes.PredicadoCompuesto>
+                  <nombre>AT</nombre>
+                  <predicados>
+                    <editorDePlanes.Variable>
+                      <nombre>a</nombre>
+                      <valor></valor>
+                    </editorDePlanes.Variable>
+                    <editorDePlanes.Variable>
+                      <nombre>c2</nombre>
+                      <valor></valor>
+                    </editorDePlanes.Variable>
+                  </predicados>
+                </editorDePlanes.PredicadoCompuesto>
+                <editorDePlanes.Variable>
+                  <nombre>HASFUEL</nombre>
+                  <valor>r2</valor>
+                </editorDePlanes.Variable>
+              </post__condiciones>
+              <links__destino/>
+              <links__origen>
+                <editorDePlanes.Link reference="../../.."/>
+                <editorDePlanes.Link>
+                  <accionor reference="../../.."/>
+                  <accionde>
+                    <nombre>Accion 5</nombre>
+                    <nivel>0</nivel>
+                    <pre__condiciones>
+                      <editorDePlanes.PredicadoCompuesto>
+                        <nombre>AT</nombre>
+                        <predicados>
+                          <editorDePlanes.Variable>
+                            <nombre>a</nombre>
+                            <valor></valor>
+                          </editorDePlanes.Variable>
+                          <editorDePlanes.Variable>
+                            <nombre>r1</nombre>
+                            <valor></valor>
+                          </editorDePlanes.Variable>
+                        </predicados>
+                      </editorDePlanes.PredicadoCompuesto>
+                      <editorDePlanes.PredicadoCompuesto>
+                        <nombre>AT</nombre>
+                        <predicados>
+                          <editorDePlanes.Variable>
+                            <nombre>a</nombre>
+                            <valor></valor>
+                          </editorDePlanes.Variable>
+                          <editorDePlanes.Variable>
+                            <nombre>c2</nombre>
+                            <valor></valor>
+                          </editorDePlanes.Variable>
+                        </predicados>
+                      </editorDePlanes.PredicadoCompuesto>
+                    </pre__condiciones>
+                    <post__condiciones>
+                      <editorDePlanes.Not>
+                        <nombre>NOT</nombre>
+                        <predicado class="editorDePlanes.PredicadoCompuesto">
+                          <nombre>AT</nombre>
+                          <predicados>
+                            <editorDePlanes.Variable>
+                              <nombre>a</nombre>
+                              <valor></valor>
+                            </editorDePlanes.Variable>
+                            <editorDePlanes.Variable>
+                              <nombre>c2</nombre>
+                              <valor></valor>
+                            </editorDePlanes.Variable>
+                          </predicados>
+                        </predicado>
+                      </editorDePlanes.Not>
+                      <editorDePlanes.PredicadoCompuesto>
+                        <nombre>IN</nombre>
+                        <predicados>
+                          <editorDePlanes.Variable>
+                            <nombre>r1</nombre>
+                            <valor></valor>
+                          </editorDePlanes.Variable>
+                          <editorDePlanes.Variable>
+                            <nombre>c2</nombre>
+                            <valor></valor>
+                          </editorDePlanes.Variable>
+                        </predicados>
+                      </editorDePlanes.PredicadoCompuesto>
+                    </post__condiciones>
+                    <links__destino>
+                      <editorDePlanes.Link reference="../../.."/>
+                      <editorDePlanes.Link>
+                        <accionor reference="../../../../../.."/>
+                        <accionde reference="../../.."/>
+                        <predicado class="editorDePlanes.PredicadoCompuesto" reference="../../../../../../post__condiciones/editorDePlanes.PredicadoCompuesto[4]"/>
+                      </editorDePlanes.Link>
+                    </links__destino>
+                    <links__origen>
+                      <editorDePlanes.Link>
+                        <accionor reference="../../.."/>
+                        <accionde>
+                          <nombre>Accion 4</nombre>
+                          <nivel>2</nivel>
+                          <pre__condiciones>
+                            <editorDePlanes.PredicadoCompuesto>
+                              <nombre>AT</nombre>
+                              <predicados>
+                                <editorDePlanes.Variable>
+                                  <nombre>b</nombre>
+                                  <valor></valor>
+                                </editorDePlanes.Variable>
+                                <editorDePlanes.Variable>
+                                  <nombre>r1</nombre>
+                                  <valor></valor>
+                                </editorDePlanes.Variable>
+                              </predicados>
+                            </editorDePlanes.PredicadoCompuesto>
+                            <editorDePlanes.PredicadoCompuesto>
+                              <nombre>IN</nombre>
+                              <predicados>
+                                <editorDePlanes.Variable>
+                                  <nombre>r1</nombre>
+                                  <valor></valor>
+                                </editorDePlanes.Variable>
+                                <editorDePlanes.Variable>
+                                  <nombre>c2</nombre>
+                                  <valor></valor>
+                                </editorDePlanes.Variable>
+                              </predicados>
+                            </editorDePlanes.PredicadoCompuesto>
+                          </pre__condiciones>
+                          <post__condiciones>
+                            <editorDePlanes.Not>
+                              <nombre>NOT</nombre>
+                              <predicado class="editorDePlanes.PredicadoCompuesto">
+                                <nombre>IN</nombre>
+                                <predicados>
+                                  <editorDePlanes.Variable>
+                                    <nombre>r1</nombre>
+                                    <valor></valor>
+                                  </editorDePlanes.Variable>
+                                  <editorDePlanes.Variable>
+                                    <nombre>c2</nombre>
+                                    <valor></valor>
+                                  </editorDePlanes.Variable>
+                                </predicados>
+                              </predicado>
+                            </editorDePlanes.Not>
+                            <editorDePlanes.PredicadoCompuesto>
+                              <nombre>AT</nombre>
+                              <predicados>
+                                <editorDePlanes.Variable>
+                                  <nombre>b</nombre>
+                                  <valor></valor>
+                                </editorDePlanes.Variable>
+                                <editorDePlanes.Variable>
+                                  <nombre>c2</nombre>
+                                  <valor></valor>
+                                </editorDePlanes.Variable>
+                              </predicados>
+                            </editorDePlanes.PredicadoCompuesto>
+                          </post__condiciones>
+                          <links__destino>
+                            <editorDePlanes.Link>
+                              <accionor>
+                                <nombre>Accion 6</nombre>
+                                <nivel>1</nivel>
+                                <pre__condiciones>
+                                  <editorDePlanes.PredicadoCompuesto>
+                                    <nombre>AT</nombre>
+                                    <predicados>
+                                      <editorDePlanes.Variable>
+                                        <nombre>a</nombre>
+                                        <valor></valor>
+                                      </editorDePlanes.Variable>
+                                      <editorDePlanes.Variable>
+                                        <nombre>r1</nombre>
+                                        <valor></valor>
+                                      </editorDePlanes.Variable>
+                                    </predicados>
+                                  </editorDePlanes.PredicadoCompuesto>
+                                  <editorDePlanes.Variable>
+                                    <nombre>HASFUEL</nombre>
+                                    <valor>r1</valor>
+                                  </editorDePlanes.Variable>
+                                </pre__condiciones>
+                                <post__condiciones>
+                                  <editorDePlanes.PredicadoCompuesto>
+                                    <nombre>AT</nombre>
+                                    <predicados>
+                                      <editorDePlanes.Variable>
+                                        <nombre>b</nombre>
+                                        <valor></valor>
+                                      </editorDePlanes.Variable>
+                                      <editorDePlanes.Variable>
+                                        <nombre>r1</nombre>
+                                        <valor></valor>
+                                      </editorDePlanes.Variable>
+                                    </predicados>
+                                  </editorDePlanes.PredicadoCompuesto>
+                                  <editorDePlanes.Not>
+                                    <nombre>NOT</nombre>
+                                    <predicado class="editorDePlanes.PredicadoCompuesto">
+                                      <nombre>AT</nombre>
+                                      <predicados>
+                                        <editorDePlanes.Variable>
+                                          <nombre>a</nombre>
+                                          <valor></valor>
+                                        </editorDePlanes.Variable>
+                                        <editorDePlanes.Variable>
+                                          <nombre>r1</nombre>
+                                          <valor></valor>
+                                        </editorDePlanes.Variable>
+                                      </predicados>
+                                    </predicado>
+                                  </editorDePlanes.Not>
+                                  <editorDePlanes.Not>
+                                    <nombre>NOT</nombre>
+                                    <predicado class="editorDePlanes.Variable">
+                                      <nombre>HASFUEL</nombre>
+                                      <valor>r1</valor>
+                                    </predicado>
+                                  </editorDePlanes.Not>
+                                </post__condiciones>
+                                <links__destino>
+                                  <editorDePlanes.Link>
+                                    <accionor reference="../../../../../../../../../../../.."/>
+                                    <accionde reference="../../.."/>
+                                    <predicado class="editorDePlanes.PredicadoCompuesto" reference="../../../../../../../../../../../../post__condiciones/editorDePlanes.PredicadoCompuesto[3]"/>
+                                  </editorDePlanes.Link>
+                                  <editorDePlanes.Link>
+                                    <accionor reference="../../../../../../../../../../../.."/>
+                                    <accionde reference="../../.."/>
+                                    <predicado class="editorDePlanes.Variable" reference="../../../../../../../../../../../../post__condiciones/editorDePlanes.Variable"/>
+                                  </editorDePlanes.Link>
+                                </links__destino>
+                                <links__origen>
+                                  <editorDePlanes.Link reference="../../.."/>
+                                  <editorDePlanes.Link>
+                                    <accionor reference="../../.."/>
+                                    <accionde>
+                                      <nombre>Accion 1</nombre>
+                                      <nivel>2</nivel>
+                                      <pre__condiciones>
+                                        <editorDePlanes.PredicadoCompuesto>
+                                          <nombre>AT</nombre>
+                                          <predicados>
+                                            <editorDePlanes.Variable>
+                                              <nombre>b</nombre>
+                                              <valor></valor>
+                                            </editorDePlanes.Variable>
+                                            <editorDePlanes.Variable>
+                                              <nombre>r1</nombre>
+                                              <valor></valor>
+                                            </editorDePlanes.Variable>
+                                          </predicados>
+                                        </editorDePlanes.PredicadoCompuesto>
+                                        <editorDePlanes.PredicadoCompuesto>
+                                          <nombre>IN</nombre>
+                                          <predicados>
+                                            <editorDePlanes.Variable>
+                                              <nombre>r1</nombre>
+                                              <valor></valor>
+                                            </editorDePlanes.Variable>
+                                            <editorDePlanes.Variable>
+                                              <nombre>c1</nombre>
+                                              <valor></valor>
+                                            </editorDePlanes.Variable>
+                                          </predicados>
+                                        </editorDePlanes.PredicadoCompuesto>
+                                      </pre__condiciones>
+                                      <post__condiciones>
+                                        <editorDePlanes.Not>
+                                          <nombre>NOT</nombre>
+                                          <predicado class="editorDePlanes.PredicadoCompuesto">
+                                            <nombre>IN</nombre>
+                                            <predicados>
+                                              <editorDePlanes.Variable>
+                                                <nombre>r1</nombre>
+                                                <valor></valor>
+                                              </editorDePlanes.Variable>
+                                              <editorDePlanes.Variable>
+                                                <nombre>c1</nombre>
+                                                <valor></valor>
+                                              </editorDePlanes.Variable>
+                                            </predicados>
+                                          </predicado>
+                                        </editorDePlanes.Not>
+                                        <editorDePlanes.PredicadoCompuesto>
+                                          <nombre>AT</nombre>
+                                          <predicados>
+                                            <editorDePlanes.Variable>
+                                              <nombre>b</nombre>
+                                              <valor></valor>
+                                            </editorDePlanes.Variable>
+                                            <editorDePlanes.Variable>
+                                              <nombre>c1</nombre>
+                                              <valor></valor>
+                                            </editorDePlanes.Variable>
+                                          </predicados>
+                                        </editorDePlanes.PredicadoCompuesto>
+                                      </post__condiciones>
+                                      <links__destino>
+                                        <editorDePlanes.Link>
+                                          <accionor reference="../../../../../../../../../../../../../../../../../.."/>
+                                          <accionde reference="../../.."/>
+                                          <predicado class="editorDePlanes.PredicadoCompuesto" reference="../../../../../../../../../../../../../../../../../../post__condiciones/editorDePlanes.PredicadoCompuesto"/>
+                                        </editorDePlanes.Link>
+                                        <editorDePlanes.Link reference="../../.."/>
+                                      </links__destino>
+                                      <links__origen>
+                                        <editorDePlanes.Link>
+                                          <accionor reference="../../.."/>
+                                          <accionde>
+                                            <nombre>Accion Inf</nombre>
+                                            <nivel>3</nivel>
+                                            <pre__condiciones>
+                                              <editorDePlanes.PredicadoCompuesto>
+                                                <nombre>AT</nombre>
+                                                <predicados>
+                                                  <editorDePlanes.Variable>
+                                                    <nombre>b</nombre>
+                                                    <valor></valor>
+                                                  </editorDePlanes.Variable>
+                                                  <editorDePlanes.Variable>
+                                                    <nombre>c1</nombre>
+                                                    <valor></valor>
+                                                  </editorDePlanes.Variable>
+                                                </predicados>
+                                              </editorDePlanes.PredicadoCompuesto>
+                                              <editorDePlanes.PredicadoCompuesto>
+                                                <nombre>AT</nombre>
+                                                <predicados>
+                                                  <editorDePlanes.Variable>
+                                                    <nombre>b</nombre>
+                                                    <valor></valor>
+                                                  </editorDePlanes.Variable>
+                                                  <editorDePlanes.Variable>
+                                                    <nombre>c2</nombre>
+                                                    <valor></valor>
+                                                  </editorDePlanes.Variable>
+                                                </predicados>
+                                              </editorDePlanes.PredicadoCompuesto>
+                                            </pre__condiciones>
+                                            <post__condiciones/>
+                                            <links__destino>
+                                              <editorDePlanes.Link>
+                                                <accionor reference="../../../../../../../../../../../.."/>
+                                                <accionde reference="../../.."/>
+                                                <predicado class="editorDePlanes.PredicadoCompuesto" reference="../../../../../../../../../../../../post__condiciones/editorDePlanes.PredicadoCompuesto"/>
+                                              </editorDePlanes.Link>
+                                              <editorDePlanes.Link reference="../../.."/>
+                                            </links__destino>
+                                            <links__origen/>
+                                          </accionde>
+                                          <predicado class="editorDePlanes.PredicadoCompuesto" reference="../../../post__condiciones/editorDePlanes.PredicadoCompuesto"/>
+                                        </editorDePlanes.Link>
+                                      </links__origen>
+                                    </accionde>
+                                    <predicado class="editorDePlanes.PredicadoCompuesto" reference="../../../post__condiciones/editorDePlanes.PredicadoCompuesto"/>
+                                  </editorDePlanes.Link>
+                                </links__origen>
+                              </accionor>
+                              <accionde reference="../../.."/>
+                              <predicado class="editorDePlanes.PredicadoCompuesto" reference="../accionor/post__condiciones/editorDePlanes.PredicadoCompuesto"/>
+                            </editorDePlanes.Link>
+                            <editorDePlanes.Link reference="../../.."/>
+                          </links__destino>
+                          <links__origen>
+                            <editorDePlanes.Link reference="../../links__destino/editorDePlanes.Link/accionor/links__origen/editorDePlanes.Link[2]/accionde/links__origen/editorDePlanes.Link/accionde/links__destino/editorDePlanes.Link"/>
+                          </links__origen>
+                        </accionde>
+                        <predicado class="editorDePlanes.PredicadoCompuesto" reference="../../../post__condiciones/editorDePlanes.PredicadoCompuesto"/>
+                      </editorDePlanes.Link>
+                    </links__origen>
+                  </accionde>
+                  <predicado class="editorDePlanes.PredicadoCompuesto" reference="../../../post__condiciones/editorDePlanes.PredicadoCompuesto[3]"/>
+                </editorDePlanes.Link>
+                <editorDePlanes.Link>
+                  <accionor reference="../../.."/>
+                  <accionde reference="../../../../../.."/>
+                  <predicado class="editorDePlanes.PredicadoCompuesto" reference="../../../post__condiciones/editorDePlanes.PredicadoCompuesto[3]"/>
+                </editorDePlanes.Link>
+                <editorDePlanes.Link reference="../editorDePlanes.Link[2]/accionde/links__destino/editorDePlanes.Link[2]"/>
+                <editorDePlanes.Link reference="../editorDePlanes.Link[2]/accionde/links__origen/editorDePlanes.Link/accionde/links__destino/editorDePlanes.Link/accionor/links__destino/editorDePlanes.Link"/>
+                <editorDePlanes.Link reference="../editorDePlanes.Link[2]/accionde/links__origen/editorDePlanes.Link/accionde/links__destino/editorDePlanes.Link/accionor/links__destino/editorDePlanes.Link[2]"/>
+              </links__origen>
+            </accionor>
+            <accionde reference="../../.."/>
+            <predicado class="editorDePlanes.PredicadoCompuesto" reference="../accionor/post__condiciones/editorDePlanes.PredicadoCompuesto[2]"/>
+          </editorDePlanes.Link>
+          <editorDePlanes.Link reference="../editorDePlanes.Link/accionor/links__origen/editorDePlanes.Link[3]"/>
+        </links__destino>
+        <links__origen>
+          <editorDePlanes.Link reference="../../links__destino/editorDePlanes.Link/accionor/links__origen/editorDePlanes.Link[2]/accionde/links__origen/editorDePlanes.Link/accionde/links__destino/editorDePlanes.Link/accionor/links__origen/editorDePlanes.Link[2]/accionde/links__destino/editorDePlanes.Link"/>
+        </links__origen>
+      </editorDePlanes.Accion>
+      <editorDePlanes.Accion reference="../editorDePlanes.Accion/links__destino/editorDePlanes.Link/accionor/links__origen/editorDePlanes.Link[2]/accionde"/>
+    </vector>
+    <vector>
+      <editorDePlanes.Accion reference="../../vector/editorDePlanes.Accion/links__destino/editorDePlanes.Link/accionor/links__origen/editorDePlanes.Link[2]/accionde/links__origen/editorDePlanes.Link/accionde/links__destino/editorDePlanes.Link/accionor"/>
+    </vector>
+    <vector>
+      <editorDePlanes.Accion reference="../../vector/editorDePlanes.Accion/links__destino/editorDePlanes.Link/accionor/links__origen/editorDePlanes.Link[2]/accionde/links__origen/editorDePlanes.Link/accionde"/>
+      <editorDePlanes.Accion reference="../../vector/editorDePlanes.Accion/links__destino/editorDePlanes.Link/accionor/links__origen/editorDePlanes.Link[2]/accionde/links__origen/editorDePlanes.Link/accionde/links__destino/editorDePlanes.Link/accionor/links__origen/editorDePlanes.Link[2]/accionde"/>
+    </vector>
+  </niveles>
+  <links>
+    <editorDePlanes.Link reference="../../niveles/vector/editorDePlanes.Accion/links__destino/editorDePlanes.Link"/>
+    <editorDePlanes.Link reference="../../niveles/vector/editorDePlanes.Accion/links__destino/editorDePlanes.Link/accionor/links__origen/editorDePlanes.Link[2]"/>
+    <editorDePlanes.Link reference="../../niveles/vector/editorDePlanes.Accion/links__destino/editorDePlanes.Link/accionor/links__origen/editorDePlanes.Link[3]"/>
+    <editorDePlanes.Link reference="../../niveles/vector/editorDePlanes.Accion/links__destino/editorDePlanes.Link/accionor/links__origen/editorDePlanes.Link[2]/accionde/links__destino/editorDePlanes.Link[2]"/>
+    <editorDePlanes.Link reference="../../niveles/vector/editorDePlanes.Accion/links__destino/editorDePlanes.Link/accionor/links__origen/editorDePlanes.Link[2]/accionde/links__origen/editorDePlanes.Link/accionde/links__destino/editorDePlanes.Link/accionor/links__destino/editorDePlanes.Link"/>
+    <editorDePlanes.Link reference="../../niveles/vector/editorDePlanes.Accion/links__destino/editorDePlanes.Link/accionor/links__origen/editorDePlanes.Link[2]/accionde/links__origen/editorDePlanes.Link/accionde/links__destino/editorDePlanes.Link/accionor/links__destino/editorDePlanes.Link[2]"/>
+    <editorDePlanes.Link reference="../../niveles/vector/editorDePlanes.Accion/links__destino/editorDePlanes.Link/accionor/links__origen/editorDePlanes.Link[2]/accionde/links__origen/editorDePlanes.Link/accionde/links__destino/editorDePlanes.Link/accionor/links__origen/editorDePlanes.Link[2]/accionde/links__destino/editorDePlanes.Link"/>
+    <editorDePlanes.Link reference="../../niveles/vector/editorDePlanes.Accion/links__destino/editorDePlanes.Link/accionor/links__origen/editorDePlanes.Link[2]/accionde/links__origen/editorDePlanes.Link/accionde/links__destino/editorDePlanes.Link"/>
+    <editorDePlanes.Link reference="../../niveles/vector/editorDePlanes.Accion/links__destino/editorDePlanes.Link/accionor/links__origen/editorDePlanes.Link[2]/accionde/links__origen/editorDePlanes.Link/accionde/links__destino/editorDePlanes.Link/accionor/links__origen/editorDePlanes.Link[2]"/>
+    <editorDePlanes.Link reference="../../niveles/vector/editorDePlanes.Accion/links__destino/editorDePlanes.Link/accionor/links__origen/editorDePlanes.Link[2]/accionde/links__origen/editorDePlanes.Link/accionde/links__destino/editorDePlanes.Link/accionor/links__origen/editorDePlanes.Link[2]/accionde/links__origen/editorDePlanes.Link/accionde/links__destino/editorDePlanes.Link"/>
+    <editorDePlanes.Link reference="../../niveles/vector/editorDePlanes.Accion/links__destino/editorDePlanes.Link/accionor/links__origen/editorDePlanes.Link[2]/accionde/links__origen/editorDePlanes.Link/accionde/links__destino/editorDePlanes.Link/accionor/links__origen/editorDePlanes.Link[2]/accionde/links__origen/editorDePlanes.Link"/>
+    <editorDePlanes.Link reference="../../niveles/vector/editorDePlanes.Accion/links__destino/editorDePlanes.Link/accionor/links__origen/editorDePlanes.Link[2]/accionde/links__origen/editorDePlanes.Link"/>
+  </links>
+  <estado__inicial reference="../niveles/vector/editorDePlanes.Accion/links__destino/editorDePlanes.Link/accionor"/>
+  <estado__final reference="../niveles/vector/editorDePlanes.Accion/links__destino/editorDePlanes.Link/accionor/links__origen/editorDePlanes.Link[2]/accionde/links__origen/editorDePlanes.Link/accionde/links__destino/editorDePlanes.Link/accionor/links__origen/editorDePlanes.Link[2]/accionde/links__origen/editorDePlanes.Link/accionde"/>
+  <cant__niveles>2</cant__niveles>
+  <cant__niveles__jgraph>3</cant__niveles__jgraph>
+  <fallo__links>false</fallo__links>
+</editorDePlanes.Plan>

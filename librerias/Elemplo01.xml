@@ -1,0 +1,40 @@
+<editorDePlanes.Libreria id="1">
+  <acciones id="2">
+    <editorDePlanes.Accion id="3">
+      <nombre>ACCION2</nombre>
+      <nivel>0</nivel>
+      <pre__condiciones id="4">
+        <editorDePlanes.PredicadoCompuesto id="5">
+          <nombre>SS</nombre>
+          <predicados id="6">
+            <editorDePlanes.Variable id="7">
+              <nombre>A</nombre>
+              <valor>a</valor>
+            </editorDePlanes.Variable>
+            <editorDePlanes.Variable id="8">
+              <nombre>H</nombre>
+              <valor>h</valor>
+            </editorDePlanes.Variable>
+          </predicados>
+        </editorDePlanes.PredicadoCompuesto>
+        <editorDePlanes.PredicadoCompuesto id="9">
+          <nombre>SS</nombre>
+          <predicados id="10">
+            <editorDePlanes.Variable id="11">
+              <nombre>B</nombre>
+              <valor>b</valor>
+            </editorDePlanes.Variable>
+          </predicados>
+        </editorDePlanes.PredicadoCompuesto>
+        <editorDePlanes.PredicadoCompuesto id="12">
+          <nombre>SS</nombre>
+          <predicados id="13"/>
+        </editorDePlanes.PredicadoCompuesto>
+      </pre__condiciones>
+      <post__condiciones id="14"/>
+      <links__destino id="15"/>
+      <links__origen id="16"/>
+    </editorDePlanes.Accion>
+  </acciones>
+  <nombre>Ejemplo01</nombre>
+</editorDePlanes.Libreria>

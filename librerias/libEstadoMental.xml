@@ -1,0 +1,200 @@
+<editorDePlanes.Libreria id="1">
+  <acciones id="2">
+    <editorDePlanes.Accion id="3">
+      <nombre>conducir( cam2, d, Y1)</nombre>
+      <nivel>0</nivel>
+      <pre__condiciones id="4">
+        <editorDePlanes.PredicadoCompuesto id="5">
+          <nombre>CONECTADOS</nombre>
+          <predicados id="6">
+            <editorDePlanes.Variable id="7">
+              <nombre>d</nombre>
+              <valor></valor>
+            </editorDePlanes.Variable>
+            <editorDePlanes.Variable id="8">
+              <nombre>y1</nombre>
+              <valor></valor>
+            </editorDePlanes.Variable>
+          </predicados>
+        </editorDePlanes.PredicadoCompuesto>
+        <editorDePlanes.PredicadoCompuesto id="9">
+          <nombre>ON</nombre>
+          <predicados id="10">
+            <editorDePlanes.Variable id="11">
+              <nombre>d</nombre>
+              <valor></valor>
+            </editorDePlanes.Variable>
+            <editorDePlanes.Variable id="12">
+              <nombre>cam2</nombre>
+              <valor></valor>
+            </editorDePlanes.Variable>
+          </predicados>
+        </editorDePlanes.PredicadoCompuesto>
+      </pre__condiciones>
+      <post__condiciones id="13">
+        <editorDePlanes.PredicadoCompuesto id="14">
+          <nombre>ON</nombre>
+          <predicados id="15">
+            <editorDePlanes.Variable id="16">
+              <nombre>y1</nombre>
+              <valor></valor>
+            </editorDePlanes.Variable>
+            <editorDePlanes.Variable id="17">
+              <nombre>cam2</nombre>
+              <valor></valor>
+            </editorDePlanes.Variable>
+          </predicados>
+        </editorDePlanes.PredicadoCompuesto>
+        <editorDePlanes.Not id="18">
+          <nombre>NOT</nombre>
+          <predicado class="editorDePlanes.PredicadoCompuesto" id="19">
+            <nombre>ON</nombre>
+            <predicados id="20">
+              <editorDePlanes.Variable id="21">
+                <nombre>d</nombre>
+                <valor></valor>
+              </editorDePlanes.Variable>
+              <editorDePlanes.Variable id="22">
+                <nombre>cam2</nombre>
+                <valor></valor>
+              </editorDePlanes.Variable>
+            </predicados>
+          </predicado>
+        </editorDePlanes.Not>
+      </post__condiciones>
+      <links__destino id="23"/>
+      <links__origen id="24"/>
+    </editorDePlanes.Accion>
+    <editorDePlanes.Accion id="25">
+      <nombre>conducir( cam2, Y1, g)</nombre>
+      <nivel>0</nivel>
+      <pre__condiciones id="26">
+        <editorDePlanes.PredicadoCompuesto id="27">
+          <nombre>ON</nombre>
+          <predicados id="28">
+            <editorDePlanes.Variable id="29">
+              <nombre>y1</nombre>
+              <valor></valor>
+            </editorDePlanes.Variable>
+            <editorDePlanes.Variable id="30">
+              <nombre>cam2</nombre>
+              <valor></valor>
+            </editorDePlanes.Variable>
+          </predicados>
+        </editorDePlanes.PredicadoCompuesto>
+        <editorDePlanes.PredicadoCompuesto id="31">
+          <nombre>CONECTADOS</nombre>
+          <predicados id="32">
+            <editorDePlanes.Variable id="33">
+              <nombre>y1</nombre>
+              <valor></valor>
+            </editorDePlanes.Variable>
+            <editorDePlanes.Variable id="34">
+              <nombre>g</nombre>
+              <valor></valor>
+            </editorDePlanes.Variable>
+          </predicados>
+        </editorDePlanes.PredicadoCompuesto>
+      </pre__condiciones>
+      <post__condiciones id="35">
+        <editorDePlanes.PredicadoCompuesto id="36">
+          <nombre>ON</nombre>
+          <predicados id="37">
+            <editorDePlanes.Variable id="38">
+              <nombre>g</nombre>
+              <valor></valor>
+            </editorDePlanes.Variable>
+            <editorDePlanes.Variable id="39">
+              <nombre>cam2</nombre>
+              <valor></valor>
+            </editorDePlanes.Variable>
+          </predicados>
+        </editorDePlanes.PredicadoCompuesto>
+        <editorDePlanes.Not id="40">
+          <nombre>NOT</nombre>
+          <predicado class="editorDePlanes.PredicadoCompuesto" id="41">
+            <nombre>ON</nombre>
+            <predicados id="42">
+              <editorDePlanes.Variable id="43">
+                <nombre>y1</nombre>
+                <valor></valor>
+              </editorDePlanes.Variable>
+              <editorDePlanes.Variable id="44">
+                <nombre>cam2</nombre>
+                <valor></valor>
+              </editorDePlanes.Variable>
+            </predicados>
+          </predicado>
+        </editorDePlanes.Not>
+      </post__condiciones>
+      <links__destino id="45"/>
+      <links__origen id="46"/>
+    </editorDePlanes.Accion>
+    <editorDePlanes.Accion id="47">
+      <nombre>descargar(c1, g, cam2)</nombre>
+      <nivel>0</nivel>
+      <pre__condiciones id="48">
+        <editorDePlanes.PredicadoCompuesto id="49">
+          <nombre>ON</nombre>
+          <predicados id="50">
+            <editorDePlanes.Variable id="51">
+              <nombre>g</nombre>
+              <valor></valor>
+            </editorDePlanes.Variable>
+            <editorDePlanes.Variable id="52">
+              <nombre>cam2</nombre>
+              <valor></valor>
+            </editorDePlanes.Variable>
+          </predicados>
+        </editorDePlanes.PredicadoCompuesto>
+        <editorDePlanes.PredicadoCompuesto id="53">
+          <nombre>IN</nombre>
+          <predicados id="54">
+            <editorDePlanes.Variable id="55">
+              <nombre>cam2</nombre>
+              <valor></valor>
+            </editorDePlanes.Variable>
+            <editorDePlanes.Variable id="56">
+              <nombre>c1</nombre>
+              <valor></valor>
+            </editorDePlanes.Variable>
+          </predicados>
+        </editorDePlanes.PredicadoCompuesto>
+      </pre__condiciones>
+      <post__condiciones id="57">
+        <editorDePlanes.PredicadoCompuesto id="58">
+          <nombre>ON</nombre>
+          <predicados id="59">
+            <editorDePlanes.Variable id="60">
+              <nombre>g</nombre>
+              <valor></valor>
+            </editorDePlanes.Variable>
+            <editorDePlanes.Variable id="61">
+              <nombre>c1</nombre>
+              <valor></valor>
+            </editorDePlanes.Variable>
+          </predicados>
+        </editorDePlanes.PredicadoCompuesto>
+        <editorDePlanes.Not id="62">
+          <nombre>NOT</nombre>
+          <predicado class="editorDePlanes.PredicadoCompuesto" id="63">
+            <nombre>IN</nombre>
+            <predicados id="64">
+              <editorDePlanes.Variable id="65">
+                <nombre>cam2</nombre>
+                <valor></valor>
+              </editorDePlanes.Variable>
+              <editorDePlanes.Variable id="66">
+                <nombre>c1</nombre>
+                <valor></valor>
+              </editorDePlanes.Variable>
+            </predicados>
+          </predicado>
+        </editorDePlanes.Not>
+      </post__condiciones>
+      <links__destino id="67"/>
+      <links__origen id="68"/>
+    </editorDePlanes.Accion>
+  </acciones>
+  <nombre>EstadoMental</nombre>
+</editorDePlanes.Libreria>

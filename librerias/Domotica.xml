@@ -1,0 +1,16 @@
+<editorDePlanes.Libreria id="1">
+  <acciones id="2">
+    <editorDePlanes.Accion id="3">
+      <nombre>Proteger</nombre>
+      <nivel>0</nivel>
+      <pre__condiciones id="4">
+        <editorDePlanes.Variable id="5">
+          <nombre>SENSORES</nombre>
+          <valor> apagados</valor>
+        </editorDePlanes.Variable>
+      </pre__condiciones>
+      <post__condiciones id="6"/>
+    </editorDePlanes.Accion>
+  </acciones>
+  <nombre>Domotica</nombre>
+</editorDePlanes.Libreria>

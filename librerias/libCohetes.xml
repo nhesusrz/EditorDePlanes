@@ -1,0 +1,328 @@
+<editorDePlanes.Libreria id="1">
+  <acciones id="2">
+    <editorDePlanes.Accion id="3">
+      <nombre>Accion 2</nombre>
+      <nivel>0</nivel>
+      <pre__condiciones id="4">
+        <editorDePlanes.PredicadoCompuesto id="5">
+          <nombre>AT</nombre>
+          <predicados id="6">
+            <editorDePlanes.Variable id="7">
+              <nombre>a</nombre>
+              <valor></valor>
+            </editorDePlanes.Variable>
+            <editorDePlanes.Variable id="8">
+              <nombre>c1</nombre>
+              <valor></valor>
+            </editorDePlanes.Variable>
+          </predicados>
+        </editorDePlanes.PredicadoCompuesto>
+        <editorDePlanes.PredicadoCompuesto id="9">
+          <nombre>AT</nombre>
+          <predicados id="10">
+            <editorDePlanes.Variable id="11">
+              <nombre>a</nombre>
+              <valor></valor>
+            </editorDePlanes.Variable>
+            <editorDePlanes.Variable id="12">
+              <nombre>r1</nombre>
+              <valor></valor>
+            </editorDePlanes.Variable>
+          </predicados>
+        </editorDePlanes.PredicadoCompuesto>
+      </pre__condiciones>
+      <post__condiciones id="13">
+        <editorDePlanes.Not id="14">
+          <nombre>NOT</nombre>
+          <predicado class="editorDePlanes.PredicadoCompuesto" id="15">
+            <nombre>AT</nombre>
+            <predicados id="16">
+              <editorDePlanes.Variable id="17">
+                <nombre>a</nombre>
+                <valor></valor>
+              </editorDePlanes.Variable>
+              <editorDePlanes.Variable id="18">
+                <nombre>c1</nombre>
+                <valor></valor>
+              </editorDePlanes.Variable>
+            </predicados>
+          </predicado>
+        </editorDePlanes.Not>
+        <editorDePlanes.PredicadoCompuesto id="19">
+          <nombre>IN</nombre>
+          <predicados id="20">
+            <editorDePlanes.Variable id="21">
+              <nombre>r1</nombre>
+              <valor></valor>
+            </editorDePlanes.Variable>
+            <editorDePlanes.Variable id="22">
+              <nombre>c1</nombre>
+              <valor></valor>
+            </editorDePlanes.Variable>
+          </predicados>
+        </editorDePlanes.PredicadoCompuesto>
+      </post__condiciones>
+      <links__destino id="23"/>
+      <links__origen id="24"/>
+    </editorDePlanes.Accion>
+    <editorDePlanes.Accion id="25">
+      <nombre>Accion 5</nombre>
+      <nivel>0</nivel>
+      <pre__condiciones id="26">
+        <editorDePlanes.PredicadoCompuesto id="27">
+          <nombre>AT</nombre>
+          <predicados id="28">
+            <editorDePlanes.Variable id="29">
+              <nombre>a</nombre>
+              <valor></valor>
+            </editorDePlanes.Variable>
+            <editorDePlanes.Variable id="30">
+              <nombre>r1</nombre>
+              <valor></valor>
+            </editorDePlanes.Variable>
+          </predicados>
+        </editorDePlanes.PredicadoCompuesto>
+        <editorDePlanes.PredicadoCompuesto id="31">
+          <nombre>AT</nombre>
+          <predicados id="32">
+            <editorDePlanes.Variable id="33">
+              <nombre>a</nombre>
+              <valor></valor>
+            </editorDePlanes.Variable>
+            <editorDePlanes.Variable id="34">
+              <nombre>c2</nombre>
+              <valor></valor>
+            </editorDePlanes.Variable>
+          </predicados>
+        </editorDePlanes.PredicadoCompuesto>
+      </pre__condiciones>
+      <post__condiciones id="35">
+        <editorDePlanes.Not id="36">
+          <nombre>NOT</nombre>
+          <predicado class="editorDePlanes.PredicadoCompuesto" id="37">
+            <nombre>AT</nombre>
+            <predicados id="38">
+              <editorDePlanes.Variable id="39">
+                <nombre>a</nombre>
+                <valor></valor>
+              </editorDePlanes.Variable>
+              <editorDePlanes.Variable id="40">
+                <nombre>c2</nombre>
+                <valor></valor>
+              </editorDePlanes.Variable>
+            </predicados>
+          </predicado>
+        </editorDePlanes.Not>
+        <editorDePlanes.PredicadoCompuesto id="41">
+          <nombre>IN</nombre>
+          <predicados id="42">
+            <editorDePlanes.Variable id="43">
+              <nombre>r1</nombre>
+              <valor></valor>
+            </editorDePlanes.Variable>
+            <editorDePlanes.Variable id="44">
+              <nombre>c2</nombre>
+              <valor></valor>
+            </editorDePlanes.Variable>
+          </predicados>
+        </editorDePlanes.PredicadoCompuesto>
+      </post__condiciones>
+      <links__destino id="45"/>
+      <links__origen id="46"/>
+    </editorDePlanes.Accion>
+    <editorDePlanes.Accion id="47">
+      <nombre>Accion 6</nombre>
+      <nivel>1</nivel>
+      <pre__condiciones id="48">
+        <editorDePlanes.PredicadoCompuesto id="49">
+          <nombre>AT</nombre>
+          <predicados id="50">
+            <editorDePlanes.Variable id="51">
+              <nombre>a</nombre>
+              <valor></valor>
+            </editorDePlanes.Variable>
+            <editorDePlanes.Variable id="52">
+              <nombre>r1</nombre>
+              <valor></valor>
+            </editorDePlanes.Variable>
+          </predicados>
+        </editorDePlanes.PredicadoCompuesto>
+        <editorDePlanes.Variable id="53">
+          <nombre>HASFUEL</nombre>
+          <valor>r1</valor>
+        </editorDePlanes.Variable>
+      </pre__condiciones>
+      <post__condiciones id="54">
+        <editorDePlanes.PredicadoCompuesto id="55">
+          <nombre>AT</nombre>
+          <predicados id="56">
+            <editorDePlanes.Variable id="57">
+              <nombre>b</nombre>
+              <valor></valor>
+            </editorDePlanes.Variable>
+            <editorDePlanes.Variable id="58">
+              <nombre>r1</nombre>
+              <valor></valor>
+            </editorDePlanes.Variable>
+          </predicados>
+        </editorDePlanes.PredicadoCompuesto>
+        <editorDePlanes.Not id="59">
+          <nombre>NOT</nombre>
+          <predicado class="editorDePlanes.PredicadoCompuesto" id="60">
+            <nombre>AT</nombre>
+            <predicados id="61">
+              <editorDePlanes.Variable id="62">
+                <nombre>a</nombre>
+                <valor></valor>
+              </editorDePlanes.Variable>
+              <editorDePlanes.Variable id="63">
+                <nombre>r1</nombre>
+                <valor></valor>
+              </editorDePlanes.Variable>
+            </predicados>
+          </predicado>
+        </editorDePlanes.Not>
+        <editorDePlanes.Not id="64">
+          <nombre>NOT</nombre>
+          <predicado class="editorDePlanes.Variable" id="65">
+            <nombre>HASFUEL</nombre>
+            <valor>r1</valor>
+          </predicado>
+        </editorDePlanes.Not>
+      </post__condiciones>
+      <links__destino id="66"/>
+      <links__origen id="67"/>
+    </editorDePlanes.Accion>
+    <editorDePlanes.Accion id="68">
+      <nombre>Accion 4</nombre>
+      <nivel>2</nivel>
+      <pre__condiciones id="69">
+        <editorDePlanes.PredicadoCompuesto id="70">
+          <nombre>AT</nombre>
+          <predicados id="71">
+            <editorDePlanes.Variable id="72">
+              <nombre>b</nombre>
+              <valor></valor>
+            </editorDePlanes.Variable>
+            <editorDePlanes.Variable id="73">
+              <nombre>r1</nombre>
+              <valor></valor>
+            </editorDePlanes.Variable>
+          </predicados>
+        </editorDePlanes.PredicadoCompuesto>
+        <editorDePlanes.PredicadoCompuesto id="74">
+          <nombre>IN</nombre>
+          <predicados id="75">
+            <editorDePlanes.Variable id="76">
+              <nombre>r1</nombre>
+              <valor></valor>
+            </editorDePlanes.Variable>
+            <editorDePlanes.Variable id="77">
+              <nombre>c2</nombre>
+              <valor></valor>
+            </editorDePlanes.Variable>
+          </predicados>
+        </editorDePlanes.PredicadoCompuesto>
+      </pre__condiciones>
+      <post__condiciones id="78">
+        <editorDePlanes.Not id="79">
+          <nombre>NOT</nombre>
+          <predicado class="editorDePlanes.PredicadoCompuesto" id="80">
+            <nombre>IN</nombre>
+            <predicados id="81">
+              <editorDePlanes.Variable id="82">
+                <nombre>r1</nombre>
+                <valor></valor>
+              </editorDePlanes.Variable>
+              <editorDePlanes.Variable id="83">
+                <nombre>c2</nombre>
+                <valor></valor>
+              </editorDePlanes.Variable>
+            </predicados>
+          </predicado>
+        </editorDePlanes.Not>
+        <editorDePlanes.PredicadoCompuesto id="84">
+          <nombre>AT</nombre>
+          <predicados id="85">
+            <editorDePlanes.Variable id="86">
+              <nombre>b</nombre>
+              <valor></valor>
+            </editorDePlanes.Variable>
+            <editorDePlanes.Variable id="87">
+              <nombre>c2</nombre>
+              <valor></valor>
+            </editorDePlanes.Variable>
+          </predicados>
+        </editorDePlanes.PredicadoCompuesto>
+      </post__condiciones>
+      <links__destino id="88"/>
+      <links__origen id="89"/>
+    </editorDePlanes.Accion>
+    <editorDePlanes.Accion id="90">
+      <nombre>Accion 1</nombre>
+      <nivel>0</nivel>
+      <pre__condiciones id="91">
+        <editorDePlanes.PredicadoCompuesto id="92">
+          <nombre>AT</nombre>
+          <predicados id="93">
+            <editorDePlanes.Variable id="94">
+              <nombre>b</nombre>
+              <valor></valor>
+            </editorDePlanes.Variable>
+            <editorDePlanes.Variable id="95">
+              <nombre>r1</nombre>
+              <valor></valor>
+            </editorDePlanes.Variable>
+          </predicados>
+        </editorDePlanes.PredicadoCompuesto>
+        <editorDePlanes.PredicadoCompuesto id="96">
+          <nombre>IN</nombre>
+          <predicados id="97">
+            <editorDePlanes.Variable id="98">
+              <nombre>r1</nombre>
+              <valor></valor>
+            </editorDePlanes.Variable>
+            <editorDePlanes.Variable id="99">
+              <nombre>c1</nombre>
+              <valor></valor>
+            </editorDePlanes.Variable>
+          </predicados>
+        </editorDePlanes.PredicadoCompuesto>
+      </pre__condiciones>
+      <post__condiciones id="100">
+        <editorDePlanes.Not id="101">
+          <nombre>NOT</nombre>
+          <predicado class="editorDePlanes.PredicadoCompuesto" id="102">
+            <nombre>IN</nombre>
+            <predicados id="103">
+              <editorDePlanes.Variable id="104">
+                <nombre>r1</nombre>
+                <valor></valor>
+              </editorDePlanes.Variable>
+              <editorDePlanes.Variable id="105">
+                <nombre>c1</nombre>
+                <valor></valor>
+              </editorDePlanes.Variable>
+            </predicados>
+          </predicado>
+        </editorDePlanes.Not>
+        <editorDePlanes.PredicadoCompuesto id="106">
+          <nombre>AT</nombre>
+          <predicados id="107">
+            <editorDePlanes.Variable id="108">
+              <nombre>b</nombre>
+              <valor></valor>
+            </editorDePlanes.Variable>
+            <editorDePlanes.Variable id="109">
+              <nombre>c1</nombre>
+              <valor></valor>
+            </editorDePlanes.Variable>
+          </predicados>
+        </editorDePlanes.PredicadoCompuesto>
+      </post__condiciones>
+      <links__destino id="110"/>
+      <links__origen id="111"/>
+    </editorDePlanes.Accion>
+  </acciones>
+  <nombre>LibreriaCohetes</nombre>
+</editorDePlanes.Libreria>

@@ -1,0 +1,47 @@
+<editorDePlanes.Libreria id="1">
+  <acciones id="2">
+    <editorDePlanes.Accion id="3">
+      <nombre>Proteger</nombre>
+      <nivel>0</nivel>
+      <pre__condiciones id="4">
+        <editorDePlanes.Variable id="5">
+          <nombre>SENSORES</nombre>
+          <valor> apagados</valor>
+        </editorDePlanes.Variable>
+        <editorDePlanes.Variable id="6">
+          <nombre>SENSORES</nombre>
+          <valor> apagados</valor>
+        </editorDePlanes.Variable>
+      </pre__condiciones>
+      <post__condiciones id="7">
+        <editorDePlanes.Variable id="8">
+          <nombre>SENSORES</nombre>
+          <valor>apagados</valor>
+        </editorDePlanes.Variable>
+        <editorDePlanes.PredicadoCompuesto id="9">
+          <nombre>MOVER</nombre>
+          <predicados id="10">
+            <editorDePlanes.Variable id="11">
+              <nombre>SENSORES</nombre>
+              <valor>apagados</valor>
+            </editorDePlanes.Variable>
+            <editorDePlanes.PredicadoCompuesto id="12">
+              <nombre>SUBIR</nombre>
+              <predicados id="13">
+                <editorDePlanes.Variable id="14">
+                  <nombre>A</nombre>
+                  <valor>a</valor>
+                </editorDePlanes.Variable>
+                <editorDePlanes.Variable id="15">
+                  <nombre>B</nombre>
+                  <valor>b</valor>
+                </editorDePlanes.Variable>
+              </predicados>
+            </editorDePlanes.PredicadoCompuesto>
+          </predicados>
+        </editorDePlanes.PredicadoCompuesto>
+      </post__condiciones>
+    </editorDePlanes.Accion>
+  </acciones>
+  <nombre>Domotica</nombre>
+</editorDePlanes.Libreria>
