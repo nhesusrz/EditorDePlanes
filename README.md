@@ -1,2 +1,3 @@
-EditorDePlanes
+An Extension for Graphic Editor for Planning Algorithms: Module for Planning Algorithm
 ==============
+The purpose of this work is an extension for a previous app called "Graphic Editor for Planning Algorithms". This extension introduced in this application a logic module that runs on a prolog interpreter that allows the encapsulation of a sequence of logical statements providing services to solve a particular plan. This will return a logic module set of actions executed sequentially define target state can be achieved for that plan. Furthermore, this module will allow a future annexing more functionalities provided in logical languages​​.
