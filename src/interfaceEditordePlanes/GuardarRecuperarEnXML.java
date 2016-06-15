@@ -29,13 +29,12 @@ public static  void writeObject(Object o, File file) {
 	}
 
 	public static Object readObject(File file) {
-        XStream xs = new XStream(/*new DomDriver()*/);
+        XStream xs = new XStream(new DomDriver());
 		try {
             FileInputStream in2= new FileInputStream(file.getAbsoluteFile());
 			return xs.fromXML(in2);
 		} catch (Exception e) {
-            System.out.println("---->ERRROR AL LEER PLAN DESDE XML<-----");
-			e.printStackTrace();
+            System.out.println("---->ERRROR AL LEER PLAN DESDE XML<-----");			
 		}
 		return null;
 	}
